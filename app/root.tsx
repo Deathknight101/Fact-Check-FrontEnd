@@ -26,10 +26,38 @@ export const links: Route.LinksFunction = () => [
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="bn">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="বাংলাদেশের সংবাদ ও তথ্য যাচাই করুন AI চালিত ফ্যাক্ট চেকার দিয়ে। ছবি সহ বা ছবি ছাড়াই যেকোনো সংবাদ যাচাই করুন।"
+        />
+        <meta
+          name="keywords"
+          content="বাংলা সংবাদ, ফ্যাক্ট চেক, AI, যাচাইকারী, বাংলাদেশ, সংবাদ যাচাই"
+        />
+        <meta name="author" content="Bengali Fact Checker Team" />
+        <meta
+          property="og:title"
+          content="বাংলা সংবাদ যাচাইকারী - AI চালিত ফ্যাক্ট চেকার"
+        />
+        <meta
+          property="og:description"
+          content="বাংলাদেশের সংবাদ ও তথ্য যাচাই করুন AI চালিত ফ্যাক্ট চেকার দিয়ে।"
+        />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="বাংলা সংবাদ যাচাইকারী - AI চালিত ফ্যাক্ট চেকার"
+        />
+        <meta
+          name="twitter:description"
+          content="বাংলাদেশের সংবাদ ও তথ্য যাচাই করুন AI চালিত ফ্যাক্ট চেকার দিয়ে।"
+        />
+        <title>বাংলা সংবাদ যাচাইকারী - AI চালিত ফ্যাক্ট চেকার</title>
         <Meta />
         <Links />
       </head>
