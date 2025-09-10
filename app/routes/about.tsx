@@ -35,10 +35,10 @@ export default function AboutPage() {
   }, []);
 
   const teamMembers = [
-    { name: "Sajida", role: "Research Lead" },
-    { name: "Mahadi", role: "Data Scientist" },
-    { name: "John", role: "ML Engineer" },
-    { name: "Rabby", role: "Backend Developer" },
+    { name: "Sajida Tajreen Kabir",  },
+    { name: "Md. Mahadi Hasan", },
+    { name: "John Andy Gomes",  },
+    { name: "Abdullah Al Masud",  },
   ];
 
   const objectives = [
@@ -148,7 +148,7 @@ export default function AboutPage() {
                       <BookOpen className="h-8 w-8 text-primary" />
                     </div>
                     <h4 className="text-xl font-bold text-background">
-                      Nafees Monsoor
+                      Nafees Mansoor, PhD
                     </h4>
                     <p className="text-background">Capstone Supervisor</p>
                     <p className="text-sm text-background/70 mt-2">
